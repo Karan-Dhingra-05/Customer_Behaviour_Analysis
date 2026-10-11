@@ -53,7 +53,7 @@ The primary objectives of this project are to:
 | **Total Columns**  | 18            |
 | **Missing Values** | 37            |
 | **Missing Column** | Review Rating |
-| **Database**       | PostgreSQL    |
+| **Database**       | MySQL    |
 | **Dashboard**      | Power BI      |
 
 ### Dataset Features
