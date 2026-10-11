@@ -1,6 +1,6 @@
 # 🛍️ Customer Shopping Behavior Analysis
 
-> An end-to-end data analytics project that analyzes customer purchasing behavior, product preferences, discount usage, subscription patterns, and customer segments using **Python, PostgreSQL, SQL, and Power BI**.
+> An end-to-end data analytics project that analyzes customer purchasing behavior, product preferences, discount usage, subscription patterns, and customer segments using **Python, MySQL, SQL, and Power BI**.
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
