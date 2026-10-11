@@ -5,7 +5,6 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
 ![NumPy](https://img.shields.io/badge/NumPy-Data%20Processing-blue)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-336791)
 ![SQL](https://img.shields.io/badge/SQL-Analysis-orange)
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
@@ -27,7 +26,7 @@ This project analyzes transactional data from **3,900 customer purchases** acros
 - Purchase frequency
 - Customer demographics
 
-The project follows an end-to-end analytics workflow, starting with **data cleaning and feature engineering in Python**, followed by **SQL-based business analysis using PostgreSQL**, and finally presenting insights through an **interactive Power BI dashboard**.
+The project follows an end-to-end analytics workflow, starting with **data cleaning and feature engineering in Python**, followed by **SQL-based business analysis using MySQL**, and finally presenting insights through an **interactive Power BI dashboard**.
 
 ---
 
@@ -93,7 +92,7 @@ The primary objectives of this project are to:
 | **Python**           | Data cleaning and feature engineering |
 | **Pandas**           | Data manipulation and analysis        |
 | **NumPy**            | Numerical operations                  |
-| **PostgreSQL**       | Database storage and analysis         |
+| **MySQL**            | Database storage and analysis         |
 | **SQL**              | Business analysis                     |
 | **Power BI**         | Interactive visualization             |
 | **Jupyter Notebook** | Data analysis and experimentation     |
@@ -112,7 +111,7 @@ Data Cleaning & Preparation
 Feature Engineering using Python
      │
      ▼
-PostgreSQL Database Integration
+MySQL Database Integration
      │
      ▼
 SQL-Based Business Analysis
@@ -154,15 +153,15 @@ Additional features were created to improve the analysis:
 
 The cleaned dataset was then:
 
-1. Connected to PostgreSQL using Python
-2. Loaded into a PostgreSQL database
+1. Connected to MySQL using Python
+2. Loaded into a MySQL database
 3. Prepared for SQL-based business analysis
 
 ---
 
 ## 📈 SQL Business Analysis
 
-PostgreSQL was used to answer key business questions related to customer behavior and revenue.
+MySQL was used to answer key business questions related to customer behavior and revenue.
 
 ### Questions Answered
 
@@ -380,15 +379,15 @@ PostgreSQL Integration
 
 ---
 
-## 🗄️ PostgreSQL Setup
+## 🗄️ MySQL Setup
 
-### 1. Create a PostgreSQL Database
+### 1. Create a MySQL Database
 
-Create a database using PostgreSQL.
+Create a database using MySQL.
 
 ### 2. Configure the Database Connection
 
-Update the PostgreSQL connection details in the Python notebook according to your local environment.
+Update the MySQL connection details in the Python notebook according to your local environment.
 
 Example:
 
@@ -408,7 +407,7 @@ connection = psycopg2.connect(
 
 ### 3. Load the Cleaned Dataset
 
-The cleaned DataFrame is loaded into PostgreSQL for further SQL analysis.
+The cleaned DataFrame is loaded into MySQL for further SQL analysis.
 
 ---
 
@@ -420,7 +419,7 @@ Navigate to:
 SQL/business_analysis_queries.sql
 ```
 
-Run the SQL queries against the PostgreSQL database to reproduce the business analysis.
+Run the SQL queries against the MySQL database to reproduce the business analysis.
 
 The SQL analysis covers:
 
@@ -446,7 +445,7 @@ using **Microsoft Power BI Desktop**.
 
 If required:
 
-1. Update the PostgreSQL connection.
+1. Update the MySQL connection.
 2. Verify the data source.
 3. Refresh the dataset.
 4. Explore the interactive dashboard.
@@ -464,7 +463,7 @@ This project demonstrates practical experience in:
 - Data Preprocessing
 - Feature Engineering
 - Exploratory Data Analysis
-- PostgreSQL
+- MySQL
 - SQL
 - Business Analytics
 - Customer Segmentation
@@ -480,7 +479,7 @@ This project demonstrates practical experience in:
 
 This project demonstrates a complete **end-to-end data analytics workflow**.
 
-Starting with raw transactional data, the project uses **Python and Pandas** for data cleaning and feature engineering, **PostgreSQL and SQL** for structured business analysis, and **Power BI** for interactive visualization.
+Starting with raw transactional data, the project uses **Python and Pandas** for data cleaning and feature engineering, **MySQL and SQL** for structured business analysis, and **Power BI** for interactive visualization.
 
 The analysis transforms customer transaction data into meaningful insights around:
 
